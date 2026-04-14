@@ -56,18 +56,22 @@ Portal de diagnóstico cardiovascular desenvolvido em React + Vite para simulaç
 ```bash
 git clone https://github.com/fiap-ia-2025/grupo84-cardioia-portal.git
 cd grupo84-cardioia-portal
-Instale as dependências:
+```
+2. Instale as dependências:
 
-bash
+```bash
 npm install
 npm install react-router-dom
-Execute o projeto:
-
-bash
-npm run dev
-Acesse http://localhost:5173
 
 ```
+
+3. Execute o projeto:
+
+```bash
+npm run dev
+```
+
+Acesse http://localhost:5173
 
 # 🔐 Credenciais de Teste
 
