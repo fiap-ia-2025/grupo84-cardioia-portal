@@ -1,3 +1,31 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+
+<p align="center">
+  <a href="https://www.fiap.com.br/">
+    <img src="assets/img/logo-fiap.jpg" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width="40%" height="40%">
+  </a>
+</p>
+
+## 👨‍🎓 Integrantes do Grupo
+
+- Amanda Vieira Pires (RM566330)
+- Ana Gabriela Soares Santos (RM565235)
+- Bianca Nascimento de Santa Cruz Oliveira (RM561390)
+- Milena Pereira dos Santos Silva (RM565464)
+- Nayana Mehta Miazaki (RM565045)
+
+## 👩‍🏫 Professores
+
+### Tutor(a)
+
+- Caique Nonato da Silva Bezerra
+
+### Coordenador(a)
+
+- André Godoi
+
+---
+
 # CardioIA Portal
 
 Portal de diagnóstico cardiovascular desenvolvido em React + Vite para simulação de gerenciamento de pacientes e consultas cardiológicas.
@@ -20,14 +48,6 @@ Portal de diagnóstico cardiovascular desenvolvido em React + Vite para simulaç
 - ✅ Proteção de rotas
 - ✅ Filtros de busca
 - ✅ Design responsivo
-
-## 👨‍🎓 Integrantes do Grupo
-
-- Amanda Vieira Pires (RM566330)
-- Ana Gabriela Soares Santos (RM565235)
-- Bianca Nascimento de Santa Cruz Oliveira (RM561390)
-- Milena Pereira dos Santos Silva (RM565464)
-- Nayana Mehta Miazaki (RM565045)
 
 ## 🔧 Instalação
 
@@ -151,7 +171,6 @@ O sistema trabalha com os seguintes diagnósticos cardiológicos e relacionados:
 
 # 📝 Observações
 
-- Este projeto foi desenvolvido como atividade acadêmica para a disciplina de Front-End
 - Todos os dados são simulados e não há integração com back-end real
 - O foco principal é a aplicação dos conceitos de React, Hooks e Context API
 
@@ -203,10 +222,4 @@ O layout se adapta aos seguintes breakpoints:
 
 ---
 
-# 📄 Licença
 
-Este projeto é parte de uma atividade acadêmica e não possui licença comercial.
-
-```
-
-```
