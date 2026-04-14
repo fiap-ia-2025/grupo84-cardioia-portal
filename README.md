@@ -152,18 +152,22 @@ cardioia-portal/
 
 ---
 
-# 🏥 Diagnósticos Suportados
+## 🏥 Diagnósticos Suportados e Lógica de Triagem
 
-O sistema trabalha com os seguintes diagnósticos cardiológicos e relacionados:
+A lista de diagnósticos utilizada no **CardioIA** foi definida a partir da base de dados `diagnostics.csv` (Parte 1 do projeto). Embora o foco do portal seja cardiovascular, a inclusão de condições como **Gastrite**, **Ansiedade** e **Enxaqueca** é intencional e baseada no conceito médico de **Diagnóstico Diferencial**.
 
-| ID  | Diagnóstico                |
-| --- | -------------------------- |
-| 1   | Infarto Agudo do Miocárdio |
-| 2   | Pneumonia                  |
-| 3   | Enxaqueca                  |
-| 4   | Gastrite                   |
-| 5   | Transtorno de Ansiedade    |
-| 6   | Insuficiência Cardíaca     |
+No contexto de um pronto-socorro cardiológico, muitos pacientes chegam com queixas de "dor no peito" ou "coração acelerado", mas a origem do problema pode ser não-cardíaca. O sistema foi treinado para distinguir esses cenários com base nos sintomas mapeados no CSV:
+
+| Diagnóstico | Sintomas Mapeados no CSV | Justificativa para Inclusão no Portal CardioIA |
+|-------------|--------------------------|------------------------------------------------|
+| **Infarto Agudo do Miocárdio** | Queimação no peito, Adormecimento no braço, Dor na mandíbula | **Diagnóstico Primário**. Alvo principal do portal. |
+| **Insuficiência Cardíaca** | Pés inchados, Falta de ar ao deitar, Cansaço extremo | **Diagnóstico Primário**. Condição crônica gerenciada pelo cardiologista. |
+| **Pneumonia** | Sem ar, Febre, Dor ao respirar | **Diferencial Cardiovascular**: A dor torácica ventilatório-dependente é uma das principais causas de confusão com Infarto. |
+| **Gastrite** | Refluxo, Queimação na garganta, Dor na boca do estômago | **Diferencial Cardiovascular**: A queimação epigástrica irradia para o tórax, simulando perfeitamente uma angina. |
+| **Transtorno de Ansiedade** | Coração bate rápido, Tremor nas mãos, Pânico, Sem ar | **Diferencial Cardiovascular**: É a causa mais comum de "taquicardia" e "sensação de morte iminente" na emergência. |
+| **Enxaqueca** | Lampejos na vista, Dor unilateral, Sensibilidade à luz | **Diferencial Autonômico**: Pode desencadear alterações na pressão arterial e sintomas neurológicos que afetam o sistema cardiovascular. |
+
+**Conclusão:** O **CardioIA** não é apenas um portal de doenças cardíacas, mas um simulador inteligente de **Triagem Cardiopulmonar**, capaz de sugerir se um caso suspeito de infarto é realmente cardíaco ou se trata de uma crise de ansiedade ou refluxo, otimizando o fluxo de atendimento.
 
 ---
 
