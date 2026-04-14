@@ -54,8 +54,8 @@ Portal de diagnóstico cardiovascular desenvolvido em React + Vite para simulaç
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-grupo-cardioia-portal.git
-cd nome-do-grupo-cardioia-portal
+git clone https://github.com/fiap-ia-2025/grupo84-cardioia-portal.git
+cd grupo84-cardioia-portal
 Instale as dependências:
 
 bash
